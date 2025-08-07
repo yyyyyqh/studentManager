@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin
+//@CrossOrigin(origins = "http://localhost:5173")
 @RestController // 声明这是一个 RESTful 风格的控制器，它会直接将返回的对象转换为 JSON 格式
 @RequestMapping("/api/students") // 定义这个控制器下所有 API 的公共路径前缀
 public class StudentController {
